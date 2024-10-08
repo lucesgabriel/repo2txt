@@ -3,6 +3,7 @@ import { displayDirectoryStructure, sortContents, getSelectedFiles, formatRepoCo
 // Event listener for directory selection
 document.getElementById('directoryPicker').addEventListener('change', handleDirectorySelection);
 
+
 async function handleDirectorySelection(event) {
     const files = event.target.files;
     if (files.length === 0) return;
